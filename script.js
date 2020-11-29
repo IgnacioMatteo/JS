@@ -1,3 +1,4 @@
+// >= 18 se le vende alcohol
 let edad = prompt("¡Hola!, indicanos tu edad");
 
 if (edad < 18) {
