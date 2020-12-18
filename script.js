@@ -6,3 +6,18 @@ if (pregunta = si) {
 } else if (pregunta = si){
     console.log("Perfecto, ya tienes tu seguro!")
 }
+
+//Creacion de un objeto
+
+// let celular = "Modelo del celular"
+// let valorCelular = "valor del celular"
+
+let producto = {
+	modelo: "Samsung J7",
+	valorCelular: 27500,
+
+	mostrarInfo: function () {
+		// console.log(this)
+		console.log(`Este producto es: ${this.modelo} y tiene un precio de $${this.valorCelular}`);
+	}
+}
